@@ -33,7 +33,7 @@ function App() {
 
     // If username or age is blank
     if(username.length === 0 || age.length === 0) {
-      setErrorAge()
+      setErrorBlank()
       return;
     }
 
